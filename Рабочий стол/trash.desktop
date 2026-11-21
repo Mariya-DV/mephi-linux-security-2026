@@ -1,0 +1,11 @@
+cat trash.desktop 
+[Desktop Entry]
+Name=Корзина
+Name[en]=Trash
+Name[ru]=Корзина
+Comment=Содержит удаленные файлы
+Type=Link
+URL=trash:/
+Icon=user-trash
+EmptyIcon=user-trash
+

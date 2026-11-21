@@ -1,0 +1,8 @@
+[General]
+ColorScheme=RedOSDark
+
+[Icons]
+Theme=Papirus-Dark
+
+[KDE]
+widgetStyle=Breeze

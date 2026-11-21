@@ -61,11 +61,3 @@
    61  echo "MEPHI-2026-LAB-01"
    62  ls -l
    63  history > ~history.out
-   64  stat /home/user1 > ~/stat.out
-   65  stat ~/my_cat >> ~/stat.out
-   66  stat ~/my_chown >> ~/stat.out
-   67  ls -l ~/
-   68  cd ~
-   69  git init
-   70  git add mephi-screenshot.png history.out stat.out getcap.out passwd.out shadow.out group.out suid_files.out privileged_processes.out sudoers.out
-   71  history > ~/history.out

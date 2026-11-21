@@ -1,0 +1,50 @@
+07:44:31.248841 main     VBoxClient 7.0.0 r153978 (verbosity: 0) linux.amd64 (Oct  6 2022 19:03:07) release log
+07:44:31.248844 main     Log opened 2026-11-21T07:44:31.248837000Z
+07:44:31.249124 main     OS Product: Linux
+07:44:31.249516 main     OS Release: 6.12.92-1.red80.x86_64
+07:44:31.249605 main     OS Version: #1 SMP PREEMPT_DYNAMIC Mon Jun  1 23:55:44 MSK 2026
+07:44:31.249708 main     Executable: /opt/VBoxGuestAdditions-7.0.0/bin/VBoxClient
+07:44:31.249709 main     Process ID: 1179
+07:44:31.249709 main     Package type: LINUX_64BITS_GENERIC
+07:44:31.249846 main      VBoxClient 7.0.0 r153978 started. Verbose level = 0. Wayland environment detected: no
+07:44:31.249959 main      Service: Shared Clipboard
+07:44:31.256811 main     VBoxClient 7.0.0 r153978 (verbosity: 0) linux.amd64 (Oct  6 2022 19:03:07) release log
+07:44:31.256812 main     Log opened 2026-11-21T07:44:31.256807000Z
+07:44:31.256991 main     OS Product: Linux
+07:44:31.257067 main     OS Release: 6.12.92-1.red80.x86_64
+07:44:31.257538 main     OS Version: #1 SMP PREEMPT_DYNAMIC Mon Jun  1 23:55:44 MSK 2026
+07:44:31.257644 main     Executable: /opt/VBoxGuestAdditions-7.0.0/bin/VBoxClient
+07:44:31.257645 main     Process ID: 1185
+07:44:31.257646 main     Package type: LINUX_64BITS_GENERIC
+07:44:31.258051 main      VBoxClient 7.0.0 r153978 started. Verbose level = 0. Wayland environment detected: no
+07:44:31.258463 main      Service: VirtualBox host version check
+07:44:31.270771 main     VBoxClient 7.0.0 r153978 (verbosity: 0) linux.amd64 (Oct  6 2022 19:03:07) release log
+07:44:31.270773 main     Log opened 2026-11-21T07:44:31.270766000Z
+07:44:31.270936 main     OS Product: Linux
+07:44:31.271012 main     OS Release: 6.12.92-1.red80.x86_64
+07:44:31.271099 main     OS Version: #1 SMP PREEMPT_DYNAMIC Mon Jun  1 23:55:44 MSK 2026
+07:44:31.271197 main     Executable: /opt/VBoxGuestAdditions-7.0.0/bin/VBoxClient
+07:44:31.271198 main     Process ID: 1194
+07:44:31.271198 main     Package type: LINUX_64BITS_GENERIC
+07:44:31.271615 main      VBoxClient 7.0.0 r153978 started. Verbose level = 0. Wayland environment detected: no
+07:44:31.271736 main      Service: Seamless Mode Support
+07:44:31.278522 main     VBoxClient 7.0.0 r153978 (verbosity: 0) linux.amd64 (Oct  6 2022 19:03:07) release log
+07:44:31.278523 main     Log opened 2026-11-21T07:44:31.278519000Z
+07:44:31.278673 main     OS Product: Linux
+07:44:31.278745 main     OS Release: 6.12.92-1.red80.x86_64
+07:44:31.278826 main     OS Version: #1 SMP PREEMPT_DYNAMIC Mon Jun  1 23:55:44 MSK 2026
+07:44:31.278931 main     Executable: /opt/VBoxGuestAdditions-7.0.0/bin/VBoxClient
+07:44:31.278932 main     Process ID: 1199
+07:44:31.278932 main     Package type: LINUX_64BITS_GENERIC
+07:44:31.279059 main      VBoxClient 7.0.0 r153978 started. Verbose level = 0. Wayland environment detected: no
+07:44:31.279169 main      Service: Drag'n'Drop
+07:44:31.283169 main     VBoxClient 7.0.0 r153978 (verbosity: 0) linux.amd64 (Oct  6 2022 19:03:07) release log
+07:44:31.283171 main     Log opened 2026-11-21T07:44:31.283165000Z
+07:44:31.283515 main     OS Product: Linux
+07:44:31.283605 main     OS Release: 6.12.92-1.red80.x86_64
+07:44:31.283687 main     OS Version: #1 SMP PREEMPT_DYNAMIC Mon Jun  1 23:55:44 MSK 2026
+07:44:31.283826 main     Executable: /opt/VBoxGuestAdditions-7.0.0/bin/VBoxClient
+07:44:31.283827 main     Process ID: 1206
+07:44:31.283827 main     Package type: LINUX_64BITS_GENERIC
+07:44:31.283957 main      VBoxClient 7.0.0 r153978 started. Verbose level = 0. Wayland environment detected: no
+07:44:31.284068 main      Service: VMSVGA display assistant

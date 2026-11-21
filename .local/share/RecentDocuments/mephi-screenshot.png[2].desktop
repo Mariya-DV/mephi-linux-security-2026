@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=image-png
+Name=mephi-screenshot.png
+Type=Link
+URL[$e]=file:$HOME/mephi-screenshot.png
+X-KDE-LastOpenedWith=com.github.jeromerobert.pdfarranger
