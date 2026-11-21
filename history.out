@@ -1,0 +1,71 @@
+    1  sudo dnf install virtualbox-guest-additions
+    2  sudo reboot
+    3  sudo dnf install gcc make perl kernel-headers kernel-devel dkms
+    4  sudo mkdir -p /mnt/cd
+    5  sudo mount /dev/cdrom /mnt/cd
+    6  sudo reboot
+    7  sudo groupadd students
+    8  sudo useradd -u 1234 -m -s /bin/bash -g students user1
+    9  sudo chage -M 90 user1
+   10  id use1
+   11  id user1
+   12  chage -l user1
+   13  cat /ets/passwd > ~/passwd.out
+   14  cat /etc/passwd > ~/passwd.out
+   15  cat /etc/shadow > ~/shadow.out
+   16  sudo cat /etc/shadow > ~/shadow.out
+   17  cat /etc/group > ~/group.out
+   18  is -l ~/
+   19  ls -1 ~/
+   20  id user1
+   21  find / f -type f -perm -4000 2>/dev/null
+   22  find / - type f -perm -4000 2>/dev/null > ~/suid_files.out
+   23  ps -eo uid,euid.pid,comm
+   24  ps -eo uid,euid,pid,comm
+   25  ps -eo uid,euid,pid,comm | awk `$1 !=0 && $2 -- 0`
+   26  ps -eo uid,euid,pid,comm | awk `$1 != 0 && $2 -- 0`
+   27  ps -eo uid,euid,pid,comm | awk '$1 != 0 && $2 ==  0'
+   28  passwd
+   29  sudo touch /root/secret.txt
+   30  echo "секретные данные" | sudo tee /root/secret.txt
+   31  sudo chmod 600 /root/secret.txt
+   32  cp /usr/bin/cat ~/my_cat
+   33  sudo chmod u+s ~/my_cat
+   34  ls -l ~/my_cat
+   35  ~/my_cat /root/secret.txt
+   36  getenforce
+   37  findmnt -o TARGET,OPTIONS /home
+   38  sudo setenforce 0
+   39  ~/my_cat /root/secret.txt
+   40  sudo chown root:root ~/my_cat
+   41  sudo chmod u+s ~/my_cat
+   42  ls -l ~/my_cat
+   43  ~/my_cat /root/secret.txt
+   44  sudo setenforce 1
+   45  stat ~/my_cat >> ~/stat.out
+   46  getcap ~/my_cat > ~/getcap.out
+   47  touch ~/testfile.txt
+   48  cp /usr/bin/chown ~/my_chown
+   49  sudo setcap cap_chown+ep ~/my_chown
+   50  getcap ~/my_chown
+   51  ~/my_chown root:root ~/testfile.txt
+   52  ls -l ~/testfile.txt
+   53  stat ~/my_chown >> ~/stat.out
+   54  getcap ~/my_chown >> ~/getcap.out
+   55  sudo visudo
+   56  sudo -l
+   57  sudo date
+   58  :wq
+   59  sudo -u user1 sudo date --set="2026-11-21 17:01:30"
+   60  sudo cp /etc/sudoers ~/sudoers.out
+   61  echo "MEPHI-2026-LAB-01"
+   62  ls -l
+   63  history > ~history.out
+   64  stat /home/user1 > ~/stat.out
+   65  stat ~/my_cat >> ~/stat.out
+   66  stat ~/my_chown >> ~/stat.out
+   67  ls -l ~/
+   68  cd ~
+   69  git init
+   70  git add mephi-screenshot.png history.out stat.out getcap.out passwd.out shadow.out group.out suid_files.out privileged_processes.out sudoers.out
+   71  history > ~/history.out
