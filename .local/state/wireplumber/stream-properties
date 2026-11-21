@@ -1,5 +1,0 @@
-[stream-properties]
-Audio/Sink:node.name:auto_null={"volume":1.000000, "channelMap":["FL", "FR"], "channelVolumes":[1.000000, 1.000000], "mute":false}
-Input/Audio:application.id:org.kde.plasma-pa={"channelVolumes":[1.000000], "mute":false, "channelMap":["MONO"], "volume":1.000000}
-Output/Audio:application.name:Chromium={"channelMap":["FL", "FR"], "volume":1.000000, "channelVolumes":[1.000000, 1.000000], "mute":false}
-Output/Audio:media.role:Notification={"volume":1.000000, "channelMap":["FL", "FR"], "mute":false, "channelVolumes":[1.000000, 1.000000]}

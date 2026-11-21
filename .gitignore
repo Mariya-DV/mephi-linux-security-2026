@@ -1,0 +1,12 @@
+.cache
+.config
+.local
+Рабочий стол
+.bash_history
+.bash_logout
+.bash_profile
+.bashrc
+.gitconfig
+.gtkrc-2.0
+.gtkrc-2.0-kde4
+.vboxclient-*
